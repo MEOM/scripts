@@ -8,6 +8,14 @@ It's also build for blocks in mind.
 
 In this context, root of the project means the same folder where your `package.json` file is.
 
+## Install
+
+You can install `@meom/scripts` through npm like any other dependency:
+
+```bash
+npm install @meom/scripts --save-dev
+```
+
 ## Usage
 ### Add webpack.settings.js file in the root
 
