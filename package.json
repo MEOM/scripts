@@ -1,7 +1,15 @@
 {
   "name": "@meom/scripts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MEOM scripts",
+  "homepage": "https://github.com/MEOM/scripts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEOM/scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MEOM/scripts/issues"
+  },
   "author": "MEOM Oy",
   "license": "MIT",
   "main": "webpack.config.js",
