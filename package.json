@@ -25,5 +25,12 @@
     "glob": "^7.1.7",
     "prettier": "^2.3.2",
     "webpack-remove-empty-scripts": "^0.7.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "scripts": {
+    "lint": "wp-scripts lint-js '*.js'",
+    "format": "wp-scripts format '*.js'"
   }
 }

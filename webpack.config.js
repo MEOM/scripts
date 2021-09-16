@@ -114,7 +114,7 @@ const moduleConfig = {
                         // by default. Use the environment variable option
                         // to enable more persistent caching.
                         cacheDirectory:
-                            process.env.BABEL_CACHE_DIRECTORY || true,
+							process.env.BABEL_CACHE_DIRECTORY || true,
 
                         babelrc: false,
                         configFile: false,
@@ -180,9 +180,9 @@ if (Object.entries(projectEntries).length > 0) {
         // By default use externalConfig.
         // But if externalType === 'blocks', use blocksExternalConfig
         const external =
-            value.externalType === 'blocks'
-                ? blocksExternalConfig
-                : externalConfig;
+			value.externalType === 'blocks'
+			    ? blocksExternalConfig
+			    : externalConfig;
         config.push(
             setConfig(name, value.entries, value.outPutFolder, external)
         );
@@ -192,9 +192,9 @@ if (Object.entries(projectEntries).length > 0) {
 // Add automatic entries config if they exists.
 if (Object.entries(automaticEntries).length > 0) {
     const externalAutomatic =
-        generateAutomatically.externalType === 'blocks'
-            ? blocksExternalConfig
-            : externalConfig;
+		generateAutomatically.externalType === 'blocks'
+		    ? blocksExternalConfig
+		    : externalConfig;
     config.push(
         setConfig(
             generateAutomatically.name,
