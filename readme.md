@@ -8,7 +8,7 @@ It's also build for blocks in mind.
 
 In this context, root of the project means the same folder where your `package.json` file is.
 
-## Install
+## Installation
 
 You can install `@meom/scripts` through npm like any other dependency:
 
@@ -135,3 +135,22 @@ const config = require('@meom/scripts/webpack.config');
 
 module.exports = config;
 ```
+
+## package.json setup
+`@wordpress/scripts` package exposes binary called `wp-scripts`. Use these in `scripts` section in the `package.json` file. For example:
+
+```bash
+{
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start",
+    }
+}
+```
+
+Then you can run `npm run build` or `npm run start`.
+
+Read more in [@wordpress/scripts documentation](https://www.npmjs.com/package/@wordpress/scripts).
+
+## Other similar packages.
+- [Webpack Helpers by Human Made](https://github.com/humanmade/webpack-helpers).
