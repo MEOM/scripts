@@ -1,4 +1,7 @@
 # Changelog
+## Version 0.3.0 released December 2, 2021
+
+- Update `@wordpress/scripts` to version 19.2.0.
 
 ## Version 0.2.0 released October 26, 2021
 
