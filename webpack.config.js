@@ -79,6 +79,14 @@ const blocksExternalConfig = {
     lodash: 'lodash',
 };
 
+// Resolve. `.js` extension added. Not sure if
+const resolveConfig = {
+    alias: {
+        'lodash-es': 'lodash',
+    },
+    extensions: [ '.ts', '.tsx', '.js' ],
+}
+
 // CSS loaders.
 const cssLoaders = [
     {
@@ -167,6 +175,7 @@ function setConfig(name, entries, output, externals) {
         output: {
             path: path.resolve(process.cwd(), output),
         },
+        resolve: resolveConfig,
         externals,
         module: moduleConfig,
         plugins: pluginsConfig,

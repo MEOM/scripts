@@ -1,6 +1,6 @@
 {
   "name": "@meom/scripts",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "MEOM scripts",
   "homepage": "https://github.com/MEOM/scripts",
   "repository": {
@@ -19,12 +19,12 @@
   ],
   "dependencies": {
     "@wordpress/scripts": "^19.2.0",
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.2",
     "browser-sync": "^2.27.7",
     "browser-sync-webpack-plugin": "^2.3.0",
     "glob": "^7.2.0",
-    "prettier": "^2.5.0",
-    "webpack-remove-empty-scripts": "^0.7.1"
+    "prettier": "^2.5.1",
+    "webpack-remove-empty-scripts": "^0.7.2"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^4.0.0"
