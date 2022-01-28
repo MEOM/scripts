@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.0.0 released January 28, 2022
+
+- Update `@wordpress/scripts` to version 20.
+
 ## Version 0.3.1 released January 15, 2022
 
 - Add `.js` to `resolve.extensions`.
