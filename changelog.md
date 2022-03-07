@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 2.0.0 released March 7, 2022
+
+- Update `@wordpress/scripts` to version 22.1.
+
 ## Version 1.0.0 released January 28, 2022
 
 - Update `@wordpress/scripts` to version 20.
