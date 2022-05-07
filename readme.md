@@ -2,6 +2,8 @@
 
 MEOM scripts is a wrapper config for [WordPress scripts package](https://www.npmjs.com/package/@wordpress/scripts).
 
+[Check WP scripts changelog](https://github.com/WordPress/gutenberg/blob/trunk/packages/scripts/CHANGELOG.md) for changes.
+
 The main idea is to build assets (JS and CSS) for all custom themes and plugins from the root of the project.
 
 It's also build for blocks in mind.
