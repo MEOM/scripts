@@ -84,8 +84,8 @@ const resolveConfig = {
     alias: {
         'lodash-es': 'lodash',
     },
-    extensions: [ '.ts', '.tsx', '.js' ],
-}
+    extensions: ['.ts', '.tsx', '.js'],
+};
 
 // CSS loaders.
 const cssLoaders = [
