@@ -1,4 +1,6 @@
 # Changelog
+## Version 5.0.0 released April 3, 2023
+- Update `@wordpress/scripts` to version 26.
 
 ## Version 4.0.0 released September 19, 2022
 - Update `@wordpress/scripts` to version 24.
