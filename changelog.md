@@ -1,4 +1,6 @@
 # Changelog
+## Version 5.1.0 released August 7, 2023
+- Update `@wordpress/scripts` to version the latest version of 26.
 ## Version 5.0.1 released April 3, 2023
 - Downgrade `blob` to version 8.
 ## Version 5.0.0 released April 3, 2023
