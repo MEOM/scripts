@@ -1,4 +1,6 @@
 # Changelog
+## Version 5.1.1 released August 7, 2023
+- Downgrade prettie to version 2.
 ## Version 5.1.0 released August 7, 2023
 - Update `@wordpress/scripts` to version the latest version of 26.
 ## Version 5.0.1 released April 3, 2023
